@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cookieparser())
 
 app.use(cors({
-    origin:'https://customer-list-manager-frontend234.vercel.app/',
+    origin:'https://customer-list-manager-frontend234.vercel.app',
     credentials: true
 }))
 
